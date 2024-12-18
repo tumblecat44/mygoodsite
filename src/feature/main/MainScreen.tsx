@@ -181,7 +181,7 @@ const PersonalWebsite = () => {
               이건희 | LEE GEON-HUI
             </Typography>
             <Typography variant="subtitle1" color="text.secondary">
-              혁신적인 개발자 | 대구소프트웨마이스터고등학교 재학중
+              Android | 대구소프트웨마이스터고등학교 재학중
             </Typography>
           </Grid>
 
