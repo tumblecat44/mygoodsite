@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import MainScreen from './feature/main/MainScreen';
 

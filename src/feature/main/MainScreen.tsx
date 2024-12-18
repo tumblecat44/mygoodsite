@@ -22,7 +22,6 @@ import {
 } from '@mui/lab';
 import {
   Work as WorkIcon,
-  School as SchoolIcon,
   Star as StarIcon,
   GitHub as GitHubIcon,
   Article as ArticleIcon,
