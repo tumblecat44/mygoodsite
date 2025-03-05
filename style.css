@@ -1,0 +1,47 @@
+
+
+body {
+    font-family: 'Pretendard Variable', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    height: 100vh; /* 화면 전체 높이 */
+    text-align: center;
+}
+
+/* Compose Column 스타일 */
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 내부 요소 가운데 정렬 */
+    justify-content: center; /* 수직 정렬 */
+}
+
+/* Compose Row 스타일 */
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    gap: 16px;
+}
+
+/* 구분선 스타일 */
+hr {
+    border: 0;
+    border-top: 2px solid #333; /* 두께와 색상 */
+    width: 60%; /* 구분선 길이 */
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto; /* 가운데 정렬 */
+    min-width: 300px;
+}
+
+/* 세로 구분선 스타일 (ver 클래스) */
+.ver {
+    border-left: 2px solid #333;
+    height: 50px;
+    margin: 0 16px; /* 좌우 여백 */
+}
